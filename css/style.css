@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: skyblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.box {
+margin-top: 110px;
+background-color: whitesmoke;
+padding: 200px;
+border-radius: 20%;
+}
+
+
+h1 {
+    text-align: center;
+    color: navy;
+    font-size: 30px;
+    
+
+}
+
+input {
+    position: relative;
+
+
+}
