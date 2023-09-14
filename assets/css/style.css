@@ -16,9 +16,8 @@ body {
 .box { 
 margin-top: 110px;
 background-color: skyblue;
-padding: 200px;
+padding: 180px;
 border-radius: 20%;
-border: 10% white;
 }
 
 
@@ -63,3 +62,4 @@ input {
   .box button:hover {
     background-color: goldenrod;
   }
+
