@@ -3,27 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>Dream Password Generator</title>
 </head>
 <body>
     
-<div class="box">
+<div class="container">
     <h1>Password Generator</h1>
-    <input type="text" name="" placeholder="Create password" id="password" readonly>
+    <input type="text" name="" password="PASSWORD" id="password" readonly>
+     <button> GENERATE. </button>
+     <button> COPY. </button>
 
-    <button> GENERATE. </button>
-    <button> COPY. </button>
+
+<form>
+    <input type="checkbox" id="item1" name="item1" value="Item 1">
+    <label for="item1">Uppercase</label>
+    
+    <input type="checkbox" id="item2" name="item2" value="Item 2">
+    <label for="item2">Lowercase</label>
+    
+    <input type="checkbox" id="item3" name="item3" value="Item 3">
+    <label for="item3">Number</label>
+
+    <input type="checkbox" id="item4" name="item4" value="Item 4">
+    <label for="item4">Symbol</label>
+  </form>
+
 </div>
 
 
-
-
-
-
-
-
-
-    <script src="./assets/js/script.js"></script>
+    
 </body>
+
 </html>
